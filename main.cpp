@@ -1,11 +1,28 @@
-#include <iostream>
+/*#include <iostream>
+#include <vector>
 using namespace std;
 
 int main() {
-    int n;
-    cin >> n;
-    if (n < 1 || n > 9) return 0;
-    for (int i=1; i<=9; i++) {
-        cout << n << " * " << i << " = " << n*i << endl;
+    vector<int> v;
+    int t, a, b;
+    cin >> t;
+    for (int i=0; i<t; i++){
+        cin >> a >> b;
+        v.push_back(a+b);
+    }
+    for (int i=0; i<t; i++) {
+        cout << v[i] << endl;
+    }
+}*/
+
+#include <iostream>
+using namespace std;
+
+int main(){
+    int t, a, b;
+    cin >> t ;
+    for(int i=0 ;i<t; i++){
+        cin >> a >> b ;
+        cout << a+b << endl;
     }
 }
