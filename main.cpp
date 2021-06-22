@@ -2,10 +2,10 @@
 using namespace std;
 
 int main() {
-    int t, a, b;
-    cin >> t;
-    for (int i=0; i<t; i++) {
-        cin >> a >> b;
-        cout << "Case #" << i+1 << ": " << a << " + " << b << " = " << a+b << '\n';
+    int n;
+    cin >> n;
+    for (int i=0; i<n; i++) {
+        for (int j=0; j<=i; j++) cout << '*';
+        cout << endl;
     }
 }
